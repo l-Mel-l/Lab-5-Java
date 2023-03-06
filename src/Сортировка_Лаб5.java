@@ -21,7 +21,7 @@ public class Сортировка_Лаб5 {
         //Сортировочка
 
         public static void sort(int[]mass){
-        for (int i = 1; i < mass.length - 1; i++) {
+        for (int i = 0; i < mass.length - 1; i++) {
             for (int j = 0; j < mass.length - 1; j++) {
                 if (mass[j + 1] < mass[j]) {
                     int temp = mass[j];
